@@ -8,7 +8,7 @@
 
 # Реализуем многопоточность через ThreadPoolExecutor и замерим время теперь:
 ![image](https://user-images.githubusercontent.com/92515117/143668106-36267479-5dbb-4b44-8beb-a56eece00add.png)
-5 потоков, 3 минуты
+\n5 потоков, 3 минуты
 
 ![image](https://user-images.githubusercontent.com/92515117/143668169-58cced33-0d34-4f35-9b81-7da31b0412ad.png)
 10 потоков, 1.5 минуты
