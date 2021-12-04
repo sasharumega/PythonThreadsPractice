@@ -26,6 +26,6 @@ links = open('res.txt', encoding='utf8').read().split('\n')
 
 counter = 0
 start = time.time()
-with ThreadPoolExecutor(max_workers=100) as executor:
+with ThreadPoolExecutor(max_workers=20) as executor:
     for _ in executor.map(check_link, links):
         pass

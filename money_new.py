@@ -21,4 +21,4 @@ if __name__ == '__main__':
 		for i in range(30):
 			executor.submit(run_one_step)
 
-	print('Time: ' + format(time.time() - start, '.1f'))
+	print('Time: ' + format(time.time() - start, '.3f'))
